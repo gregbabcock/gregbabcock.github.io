@@ -387,7 +387,7 @@ textarea.form-control {
 
 .start {
 	font-family: Raleway, "Times New Roman", Times, sans-serif;
-	font-size: 16px;
+	font-size: 1.3em;
 	font-style: normal;
 	text-transform: none;
 	margin: 15px 0;
@@ -537,7 +537,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 11px;
+	font-size: 1em;
 	letter-spacing: 3px;
 	color: #222;
 }
