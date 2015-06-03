@@ -148,7 +148,7 @@
 
 			else {				
 				    $('#contact-form .ajax-hidden').fadeOut(500);
-				    response.html("Message Sent. I will contact you asap. Thanks.").fadeIn(500);
+				    response.html("Message received. I will contact you asap - Thanks!").fadeIn(500);
 				}
             
             	return false;
