@@ -775,7 +775,7 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	/*background: #9e5406;*/
 }
 
 figure.effect-bubba img {
@@ -938,6 +938,13 @@ figure.effect-bubba:hover p {
 		text-align: center;
 	}
 
+    .grid figure img {
+	position: relative;
+	display: block;
+	min-height: 66%;
+	max-width: 66%;
+}
+
 }
 
 @media (max-width: 480px) {
@@ -945,7 +952,7 @@ figure.effect-bubba:hover p {
 	h1 {
 		font-size: 34px;
 		letter-spacing: 3px;
-	}
+    }
 
     .cbp-qtrotator blockquote p footer {
     font-size: 10%;
@@ -957,18 +964,29 @@ figure.effect-bubba:hover p {
 		letter-spacing: 3px;
 	}
 
+    .grid figure img {
+	position: relative;
+	display: block;
+	min-height: 33%;
+	max-width: Auto%;
+}
+
+    .grid {
+	max-width: 66%;
+    }
+
 }
 
 
-/*@media screen and (max-width: 30.6em) { 
+@media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
 		font-size: 70%;
 	}
 
     .cbp-qtrotator img {
-		width: 80px;
+		width: 45%;
 	}
 
-}*/
+}
 
