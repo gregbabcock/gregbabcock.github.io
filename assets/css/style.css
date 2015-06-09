@@ -941,9 +941,7 @@ figure.effect-bubba:hover p {
     .grid figure img {
 	position: relative;
 	display: block;
-	min-height: 66%;
-	max-width: 66%;
-}
+	}
 
 }
 
@@ -963,7 +961,7 @@ figure.effect-bubba:hover p {
 }
 
 	h2 {
-		font-size: 24px;
+		font-size: 20px;
 		margin: 0 0 30px;
 		letter-spacing: 3px;
 	}
@@ -971,9 +969,7 @@ figure.effect-bubba:hover p {
     .grid figure img {
 	position: relative;
 	display: block;
-	min-height: 33%;
-	max-width: Auto%;
-}
+	}
 
     .grid {
 	max-width: 66%;
