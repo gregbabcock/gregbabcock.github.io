@@ -954,6 +954,10 @@ figure.effect-bubba:hover p {
 		letter-spacing: 3px;
     }
 
+    .navbar-custom .navbar-brand {
+        font-size:  20px;
+    }
+
     .cbp-qtrotator blockquote p footer {
     font-size: 10%;
 }
