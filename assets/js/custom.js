@@ -149,9 +149,10 @@
             else {
                 $.ajax({
                     url: "http://mailersample-babcocksolutions.rhcloud.com/index.php/mailer",
-                    data: {
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({
                         name: c_name, email: c_email, message: c_message
-                    },
+                    }),
                     type: "POST"
 
 
