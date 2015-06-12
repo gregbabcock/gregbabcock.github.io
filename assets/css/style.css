@@ -144,7 +144,8 @@ h6 {
 .form-control {
 	background: #FFF;
 	border: 1px solid #D8E1E4;
-	font-size: 12px;
+	font-size: 14px;
+    color: #000;
 	padding: 0 15px;
 }
 
@@ -537,7 +538,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 1em;
+	font-size: 0.9em;
 	letter-spacing: 3px;
 	color: #222;
 }
