@@ -143,7 +143,7 @@
 
             if ((c_name == '' || c_email == '' || c_message == '') || (!isValidEmailAddress(c_email))) {
                 response.fadeIn(500);
-                response.html('<i class="fa fa-warning"></i> Please fix the errors and try again.');
+                response.html('<i class="fa fa-warning"></i>Hmmm...something is not quite right. Please check for errors and try again.');
             }
 
             else {
@@ -158,7 +158,7 @@
 
                 }).done(function (data) {
                     $('#contact-form .ajax-hidden').fadeOut(500);
-                    response.html("Message received. I will contact you asap - Thanks!").fadeIn(500);
+                    response.html('<i class="contact-response">Thank you, your message was received. I will contact you shortly.</i>').fadeIn(500);
 
                 });
                 

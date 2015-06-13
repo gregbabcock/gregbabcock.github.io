@@ -282,6 +282,14 @@ textarea.form-control {
 	font-size: 18px;
 }
 
+.contact-response {
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-style: italic;
+    font-weight: 600;
+	font-size: 18px;
+}
+
+
 .pfblock-line {
 	background: rgba(135, 135, 135, 0.5);
 	width: 100px;
